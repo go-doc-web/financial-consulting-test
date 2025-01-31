@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacts</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./styles/main.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="logo-wrapper">
+          <a href="/" class="logo-link">
+            <img class="logo-img" src="assets/images/logo_1.svg" alt="Logo" />
+          </a>
+        </div>
+        <!-- Иконка бургер-меню -->
+        <div class="burger-menu">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </div>
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-list-item">
+              <a class="nav-list-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-list-item">
+              <a class="nav-list-link" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-list-item">
+              <a class="nav-list-link" href="contacts.html">Contacts</a>
+            </li>
+            <li class="nav-list-item">
+              <a class="nav-list-link" href="faq.html">FAQ</a>
+            </li>
+            <li class="nav-list-item">
+              <a class="nav-list-link" href="about.html">About Us</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="search-field">
+          <input type="search" name="search" id="" placeholder="search" />
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="contact-info">
+        <div class="container">
+          <h2>Kontakt</h2>
+          <h3>Hauptbüro (London)</h3>
+          <p>
+            <strong>Finanzberatung GmbH</strong><br />
+            10 Downing Street<br />
+            London, SW1A 2AA<br />
+            Vereinigtes Königreich<br />
+            Telefon: +44 20 7925 0918<br />
+            E-Mail: london@finanzberatung.de
+          </p>
+          <h3>Deutsches Büro</h3>
+          <p>
+            <strong>Finanzberatung GmbH</strong><br />
+            Musterstraße 123<br />
+            12345 Musterstadt<br />
+            Deutschland<br />
+            Telefon: +49 30 1234 5678<br />
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="logo logo-footer">
+          <img src="./assets/images/logo_1.svg" alt="Logo" />
+        </div>
+        <ul>
+          <li><a lang="de" href="privacy-policy.html">Datenschutz</a></li>
+          <!-- Privacy Policy -->
+          <li><a lang="de" href="terms-of-use.html">Nutzungsbedingungen</a></li>
+          <!-- Terms of Use -->
+        </ul>
+        <p>+44 123 456 789</p>
+        <p lang="de">© 2023 Alle Rechte vorbehalten.</p>
+        <!-- All rights reserved -->
+      </div>
+    </footer>
+    <div class="cookie-popup">
+      <p>
+        We use cookies to improve your experience. By continuing to browse, you
+        agree to our use of cookies.
+      </p>
+      <button>Accept</button>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="module" src="./js/pop-up.js"></script>
+    <script type="module" src="./js/burger.js"></script>
+  </body>
+</html>

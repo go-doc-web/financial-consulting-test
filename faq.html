@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FAQ</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./styles/main.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="logo-wrapper">
+          <a href="/" class="logo-link">
+            <img class="logo-img" src="assets/images/logo_1.svg" alt="Logo" />
+          </a>
+        </div>
+        <!-- Иконка бургер-меню -->
+        <div class="burger-menu">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </div>
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-list-item">
+              <a class="nav-list-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-list-item">
+              <a class="nav-list-link" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-list-item">
+              <a class="nav-list-link" href="contacts.html">Contacts</a>
+            </li>
+            <li class="nav-list-item">
+              <a class="nav-list-link" href="faq.html">FAQ</a>
+            </li>
+            <li class="nav-list-item">
+              <a class="nav-list-link" href="about.html">About Us</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="search-field">
+          <input type="search" name="search" id="" placeholder="search" />
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="section faq">
+        <div class="container">
+          <h1>Frequently Asked Questions (FAQ)</h1>
+          <div class="faq-item">
+            <h2>Q1: What services do you offer?</h2>
+            <p>
+              We offer a wide range of financial consulting services, including cloud accounting, VAT optimization, scenario modeling, and more. Our goal is to help you streamline your cash flow and improve your financial management.
+            </p>
+          </div>
+          <div class="faq-item">
+            <h2>Q2: How can I contact you for a consultation?</h2>
+            <p>
+              You can contact us via email at <a href="mailto:info@finanzberatung.de">info@finanzberatung.de</a> or call our offices at the provided phone numbers. We are always here to assist you with your financial consulting needs.
+            </p>
+          </div>
+          <div class="faq-item">
+            <h2>Q3: Where are your offices located?</h2>
+            <p>
+              Our main office is located in London, and we also have an office in Germany. Please refer to the contact section below for detailed addresses.
+            </p>
+          </div>
+          <div class="faq-item">
+            <h2>Q4: What is your approach to data privacy?</h2>
+            <p>
+              We take data privacy very seriously and adhere to strict data protection laws. We ensure that all personal information is securely stored and only used for its intended purpose.
+            </p>
+          </div>
+        </div>
+      
+      
+    </main>
+    <footer>
+      <div class="container">
+        <div class="logo logo-footer">
+          <img src="./assets/images/logo_1.svg" alt="Logo" />
+        </div>
+        <ul>
+          <li><a lang="de" href="privacy-policy.html">Datenschutz</a></li>
+          <!-- Privacy Policy -->
+          <li><a lang="de" href="terms-of-use.html">Nutzungsbedingungen</a></li>
+          <!-- Terms of Use -->
+        </ul>
+        <p>+44 123 456 789</p>
+        <p lang="de">© 2023 Alle Rechte vorbehalten.</p>
+        <!-- All rights reserved -->
+      </div>
+    </footer>
+    <div class="cookie-popup">
+      <p>
+        We use cookies to improve your experience. By continuing to browse, you
+        agree to our use of cookies.
+      </p>
+      <button>Accept</button>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="module" src="./js/pop-up.js"></script>
+    <script type="module" src="./js/burger.js"></script>
+  </body>
+</html>
