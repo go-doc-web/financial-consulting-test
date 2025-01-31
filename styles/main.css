@@ -615,6 +615,35 @@ footer p {
   margin-bottom: 0;
 }
 
+/* Ьфз */
+.map {
+  margin-bottom: 40px;
+}
+
+.map .container {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.address-info {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.address-info p {
+  line-height: 1.5;
+}
+
+.address-info a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.address-info a:hover {
+  text-decoration: underline;
+}
+
 /* Post page */
 #posts {
   display: flex;
