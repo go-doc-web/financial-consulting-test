@@ -615,7 +615,7 @@ footer p {
   margin-bottom: 0;
 }
 
-/* Ьфз */
+/* Map*/
 .map {
   margin-bottom: 40px;
 }
@@ -642,6 +642,14 @@ footer p {
 
 .address-info a:hover {
   text-decoration: underline;
+}
+@media (max-width: 768px) {
+  .map .container {
+    flex-wrap: wrap;
+  }
+  .address-info {
+    width: 100%;
+  }
 }
 
 /* Post page */
